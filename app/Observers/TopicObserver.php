@@ -36,7 +36,7 @@ class TopicObserver
         if ( ! $topic->slug) {
 
             // 推送任务到队列
-            dispatch(new TranslateSlug($topic));
+            //dispatch(new TranslateSlug($topic));
         }
     }
 }
